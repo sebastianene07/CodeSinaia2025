@@ -14,17 +14,13 @@ Choose action ? {decrypt | update_password | encrypt}encrypt
 [*] Encrypted DEK with IK1: 13e7c6457a7f330cf995393ea786ad0d
 What is your little secret?I love icecream
 [*] Payload encrypted successfully: d0240d478e171aa8612a745f73395d53
-PS C:\Users\sebas\CodeSinaia2025\CodeSinaia2025> ^C
-PS C:\Users\sebas\CodeSinaia2025\CodeSinaia2025> 
-PS C:\Users\sebas\CodeSinaia2025\CodeSinaia2025>  c:; cd 'c:\Users\sebas\CodeSinaia2025\CodeSinaia2025'; & 'c:\Users\sebas\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\sebas\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\libs\debugpy\launcher' '53199' '--' 'c:\Users\sebas\CodeSinaia2025\CodeSinaia2025\full_disk_encryption_example.py' 
+ 
 Choose action ? {decrypt | update_password | encrypt}update_password
 Enter your previous password: default_password
 Enter your new password: HardToBreakPassword
 [*] DEK decrypted successfully: 70ad0f0ca5ae2c2f5efce8b2fdd9a091
 [*] Encrypted DEK with NEW_IK1: d708a415968e3308fa0c720a983d4977
-PS C:\Users\sebas\CodeSinaia2025\CodeSinaia2025> ^C
-PS C:\Users\sebas\CodeSinaia2025\CodeSinaia2025> 
-PS C:\Users\sebas\CodeSinaia2025\CodeSinaia2025>  c:; cd 'c:\Users\sebas\CodeSinaia2025\CodeSinaia2025'; & 'c:\Users\sebas\AppData\Local\Microsoft\WindowsApps\python3.13.exe' 'c:\Users\sebas\.vscode\extensions\ms-python.debugpy-2025.8.0-win32-x64\bundled\libs\debugpy\launcher' '53208' '--' 'c:\Users\sebas\CodeSinaia2025\CodeSinaia2025\full_disk_encryption_example.py' 
+
 Choose action ? {decrypt | update_password | encrypt}decrypt
 Enter your password: HardToBreakPassword
 [*] DEK decrypted successfully: 70ad0f0ca5ae2c2f5efce8b2fdd9a091
